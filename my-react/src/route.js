@@ -1,6 +1,6 @@
 import React from "react";
-const Home = React.lazy(()=> import("./hello"));
-const Product = React.lazy(()=> import("./product"));
+const Home = React.lazy(()=> import("./Hello"));
+const Product = React.lazy(()=> import("./Product"));
 const Register = React.lazy(()=> import("./Registrasi"));
 
 const routes = [
