@@ -17,6 +17,16 @@ export default function DashboardLayout({
                         Setting
                         </Link>
                     </li>
+                     <li>
+                        <Link href="/dashboard/users" className="text-white hover:text-blue-200">
+                            Users
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/dashboard/posts" className="text-white hover:text-blue-200">
+                            Posts
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         {children}
