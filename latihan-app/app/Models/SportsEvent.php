@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Illmuinate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class SportsEvent extends Model
