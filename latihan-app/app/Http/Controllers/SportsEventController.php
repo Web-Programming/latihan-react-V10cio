@@ -26,7 +26,7 @@ class SportsEventController extends Controller
             'nama_participant' => 'required|string|max:255',
             'event_name' => 'required|string|max:255',
             'event_date' => 'required|date',
-            'no_registrasi' => 'required|string|max:5|unique:SportEvents',
+            'no_registrasi' => 'required|string|max:5|unique:sports_events',
             'category' => 'required|in:Adult,Junior',
         ]);
 

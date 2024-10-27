@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('SportsEvent', function (Blueprint $table) {
+        Schema::create('sports_events', function (Blueprint $table) {
             $table->id();
             $table->string('nama_participant', 255);
             $table->string('event_name', 255);
